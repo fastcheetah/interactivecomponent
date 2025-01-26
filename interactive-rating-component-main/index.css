@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+    --star-color: #f1c40f;
+    --star-background: #ecf0f1;
+    --Orange: hsl(25, 97%, 53%);
+    --orange: rgb(252,118,19);
+    --number-color: rgb(38,47,56);
+    --p-color:rgb(157, 161, 167);
+}
+@font-face {
+    font-family: "Overpass";
+    src: url("https://fonts.google.com/specimen/Overpass");
+}
+ 
+body{
+    background-color: rgb(26,33,43);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Overpass", sans-serif;
+}
+.main-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 0px auto;
+    background-color: rgb(30,37,47);
+    width: 25%;
+    padding:15px 10px ;
+    margin-top: 20%;
+    border-radius: 10px;
+   
+   
+}
+.circle-container{
+    position: relative;
+    width: 43px;
+    height: 43px;
+    margin-bottom: 35px;
+   
+}
+.img-container{
+ 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--number-color);
+    
+    
+}
+.star{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+h2{
+    color: white;
+    margin-bottom: 15px;
+}
+.main-text{
+    color: var(--p-color);
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+.rating-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    position: relative;
+}
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--number-color);
+    border-radius: 50%; 
+    width: 60px;
+    height: 60px; 
+    margin: 10px;
+    color: var(--LightGrey); 
+}
+.submit-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: var(--orange);
+    width: 80%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
