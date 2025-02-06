@@ -52,12 +52,8 @@ body{
     width: 43px; 
     height: 43px;
     margin-bottom: 35px;
-<<<<<<< HEAD
     margin-top: 15px;
    
-=======
-}
->>>>>>> 348a4b662e19801df5fa48330d5ba59cc6e43da2
 }
 .img-container{
  
@@ -102,7 +98,7 @@ span {
     border-radius: 50%; 
     width: 60px;
     height: 60px; 
-    margin: 12px;
+    margin: 10px;
     color: var(--LightGrey); 
 }
 .submit-p{
