@@ -118,3 +118,15 @@ span {
     text-decoration: none;
     color: var(--VeryDarkBlue);
 }
+.container2{
+    margin-top: 200px;
+    background-color: var(--Dark-Blue);
+    display: none;
+    grid-template-rows: 150px 50px 100px ;
+    grid-template-columns: 1fr;
+    border-radius: 30px;
+    padding: 35px;
+    width: 350px;
+    height: 350px;
+    place-items: center;
+}
