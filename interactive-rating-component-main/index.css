@@ -118,7 +118,12 @@ span {
     text-decoration: none;
     color: var(--VeryDarkBlue);
 }
-.container2{
+
+.number{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+/* .container2{
     margin-top: 200px;
     background-color: var(--Dark-Blue);
     display: none;
@@ -129,4 +134,8 @@ span {
     width: 350px;
     height: 350px;
     place-items: center;
-}
+} */
+ .number:hover{ 
+    background-color: var(--Orange);
+    color: var(--VeryDarkBlue);
+ }
