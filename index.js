@@ -6,3 +6,10 @@ document.querySelectorAll('.number').forEach(span => {
         span.style.color = 'black';
     });
 });
+
+document.querySelectorAll('.submit-p').forEach(div => {
+    div.addEventListener('click', function() {
+        document.querySelectorAll('.submit-p').forEach(s => s.style.backgroundColor = '');
+        div.style.backgroundColor = 'white';
+    });
+});
