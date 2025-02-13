@@ -7,9 +7,8 @@ document.querySelectorAll('.number').forEach(span => {
     });
 });
 
-document.querySelectorAll('.submit-p').forEach(div => {
-    div.addEventListener('click', function() {
-        document.querySelectorAll('.submit-p').forEach(s => s.style.backgroundColor = '');
-        div.style.backgroundColor = 'white';
-    });
+
+document.getElementById('submitBtn').addEventListener('click', function() {
+    document.getElementById('cnt2').style.display = 'block';  // Show cnt2
+    document.getElementById('mainContainer').style.display = 'none';  // Hide main container
 });
