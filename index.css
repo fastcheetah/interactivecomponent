@@ -90,7 +90,7 @@ h2{
     margin-bottom: 15px;
     position: relative;
 }
-span {
+.number{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,6 +133,11 @@ span {
     color: var(--VeryDarkBlue);
  }
  .container2{
+    margin-top: 200px;
+    background-color: rgb(30,37,47);
+    display: none;
+    border-radius: 15px;
+    padding: 25px 30px;
     display: flex;
     justify-content: center;
     flex-direction:column;
@@ -145,3 +150,13 @@ span {
     max-height: 400px;
     place-items: center;
 }
+
+.msg{
+   width: 75%;
+   margin: 10px auto;
+   background-color: white;
+   text-align: center;
+   border-radius: 10px;
+   padding: 2px 3px;
+}
+
