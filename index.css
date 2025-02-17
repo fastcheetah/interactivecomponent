@@ -90,7 +90,7 @@ h2{
     margin-bottom: 15px;
     position: relative;
 }
-span {
+.number{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,11 +142,22 @@ span {
     justify-content: center;
     flex-direction:column;
     margin-top: 5.3rem;
-    background-color: var(--Dark-Blue);
-    display: none;
+  
     border-radius: 30px;
     padding: 35px;
     max-width: 400px;
     max-height: 400px;
     place-items: center;
+
 }
+
+.msg{
+   width: 75%;
+   margin: 10px auto;
+   background-color: white;
+   text-align: center;
+   border-radius: 10px;
+   padding: 2px 3px;
+}
+
+
