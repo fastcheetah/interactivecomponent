@@ -13,6 +13,7 @@ document.getElementById('submitBtn').addEventListener('click', function() {
     document.getElementById('mainContainer').style.display = 'none';  // Hide main container
 });
 
+
 let selectedRating = null; 
 
 
@@ -40,5 +41,4 @@ document.getElementById('submitBtn').addEventListener('click', function(event) {
     } else {
         alert("Please select a rating before submitting!");
         document.getElementById('select').textContent =  'nothing out ';
-    }
-});
+    }});

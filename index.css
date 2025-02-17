@@ -138,10 +138,19 @@ h2{
     display: none;
     border-radius: 15px;
     padding: 25px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    margin-top: 5.3rem;
+    background-color: var(--Dark-Blue);
+    display: none;
+    border-radius: 30px;
+    padding: 35px;
     max-width: 400px;
     max-height: 400px;
     place-items: center;
 }
+
 .msg{
    width: 75%;
    margin: 10px auto;
@@ -150,3 +159,5 @@ h2{
    border-radius: 10px;
    padding: 2px 3px;
 }
+
+
