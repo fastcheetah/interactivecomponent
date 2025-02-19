@@ -15,6 +15,7 @@
     --orange: rgb(252,118,19);
     --number-color: rgb(38,47,56);
     --p-color:rgb(157, 161, 167);
+    --neutral-light-grey: hsl(217, 12%, 63%);
 }
 @font-face {
     font-family: "Overpass";
@@ -163,32 +164,41 @@ h2{
     margin-top: 5.3rem;
   
     border-radius: 30px;
-    padding: 35px;
-    max-width: 400px;
-    max-height: 400px;
+    
     place-items: center;
     display: none;
-    padding: 1.5rem;
+    
     text-align: center;
+    padding: 1.5rem;
+    margin-top: 5.3rem;
+    border-radius: 1rem;
+    max-width: 425px;
    
 }
 .img{
     padding: 15px;
 }
-.msg{
-   width: 75%;
-   margin: 10px auto;
-   background-color: var(--number-color);
-   color: var(--orange);
-   text-align: center;
-   border-radius: 1rem;
-   padding: .5rem 1rem;
-   
-}
+
 
 .p{
     color: var(--p-color);
+    font-size: 1rem;
+    color: var(--neutral-light-grey);
+    line-height: 1.7;
 }
+.msg{
+    width: 75%;
+    margin: .9rem auto;
+    background-color: var(--number-color);
+    color: var(--orange);
+    text-align: center;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    
+ }
 .thank-you{
     margin: 25px auto;
+}
+.thanks-img{
+margin-bottom: 0.9rem;
 }
