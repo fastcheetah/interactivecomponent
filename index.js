@@ -40,5 +40,6 @@ document.getElementById('submitBtn').addEventListener('click', function(event) {
         document.getElementById('mainContainer').style.display = 'none';
     } else {
         alert("Please select a rating before submitting!");
-        // document.getElementById('select').textContent =  'nothing out ';
+        location.reload();
+        return;
     }});
