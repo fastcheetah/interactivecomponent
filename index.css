@@ -202,3 +202,13 @@ h2{
 .thanks-img{
 margin-bottom: 0.9rem;
 }
+@media screen and (max-width: 768px){
+    .main-container{
+      
+        width: 90%;
+    }
+   .container2{
+        width: 90%;
+    }
+    
+}
