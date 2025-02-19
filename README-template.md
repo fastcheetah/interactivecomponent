@@ -1,113 +1,97 @@
-# Frontend Mentor - Interactive rating component solution
+Frontend Mentor - Interactive Rating Component Solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the Interactive Rating Component Challenge on Frontend Mentor. This challenge helped me improve my HTML, CSS, and JavaScript skills by building a functional rating system.
 
-## Table of contents
+Table of Contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+Overview
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+The Challenge
 
-## Overview
+Screenshot
 
-### The challenge
+Links
+
+My Process
+
+Built With
+
+What I Learned
+
+Continued Development
+
+Useful Resources
+
+Author
+
+Acknowledgments
+
+Overview
+
+The Challenge
 
 Users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
+View an optimal layout on different screen sizes
 
-### Screenshot
+See hover states for interactive elements
 
-![](./screenshot.jpg)
+Select a number rating and submit it
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+View a "Thank You" message displaying their selected rating
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+See an alert and have the page refresh if no rating is selected before submitting
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+Screenshot
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
-### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+Links
 
-## My process
+Solution on Frontend Mentor
 
-### Built with
+Live Demo
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+My Process
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+Built With
 
-### What I learned
+Semantic HTML5
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+CSS Flexbox
 
-To see how you can add code snippets, see below:
+JavaScript (DOM manipulation)
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+Desktop-first approach
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+What I Learned
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+This project helped me improve my JavaScript event handling and CSS styling for interactive components. I learned how to dynamically change styles and handle user input efficiently and hope to learn more.It helped me realise my weak points in javascript and where I need to put more effort in.
 
-### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Continued Development
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+In future projects, I want to:
 
-### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+Improve accessibility by adding keyboard navigation support
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+Explore using local storage to remember the user's rating
 
-## Author
+Useful Resources
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+CSS Tricks - Flexbox Guide - Helped me structure the component layout.
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+MDN JavaScript Event Listeners - Helped with event handling.
 
-## Acknowledgments
+Author
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Frontend Mentor - @fastcheetah
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Please feel free to drop any tips about this project.
+
+Always striving to be better in silence!!!
+
+Acknowledgments
+
+Thanks to Frontend Mentor for providing this challenge and the community for inspiration! 🚀
